@@ -1,0 +1,23 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "description": "This is my project.",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:literat/workshop-js-tools-and-ci-cd.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Tomas Litera",
+    "email": "tomas@litera.me",
+    "url": "https://tomas.litera.me/"
+  },
+  "homepage": "https://github.com/literat/workshop-js-tools-and-ci-cd#readme",
+  "bugs": {
+    "url": "https://github.com/literat/workshop-js-tools-and-ci-cd/issues"
+  },
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {}
+}
