@@ -1,0 +1,10 @@
+{
+  "name": "cli",
+  "version": "1.0.0",
+  "dependencies": {
+    "rimraf": "^2.6.3"
+  },
+  "scripts": {
+    "rimraf": "rimraf temp"
+  }
+}
