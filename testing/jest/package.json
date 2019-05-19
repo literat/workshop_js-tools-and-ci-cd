@@ -1,0 +1,18 @@
+{
+  "name": "jest-example",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "npm run jest:coverage",
+    "jest": "NODE_ENV=testing jest --config ./jest.config.json",
+    "jest:watch": "npm run jest --watch",
+    "jest:coverage": "npm run jest --coverage"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "enzyme": "^3.9.0",
+    "enzyme-to-json": "^3.3.5",
+    "jest": "^24.8.0",
+    "jest-fetch-mock": "^2.1.2",
+    "jest-junit": "^6.4.0"
+  }
+}

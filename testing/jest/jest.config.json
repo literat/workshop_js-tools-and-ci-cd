@@ -1,0 +1,25 @@
+{
+  "automock": false,
+  "setupFiles": ["./jest.setup.js"],
+  "moduleNameMapper": {
+    "\\.(css|less)$": "identity-obj-proxy"
+  },
+  "verbose": false,
+  "testURL": "http://localhost/",
+  "reporters": [
+    "default",
+    ["jest-junit", { "output": "./coverage/junit.xml" }]
+  ],
+  "transform": {
+    "^.+\\.js$": "babel-jest"
+  },
+  "coveragePathIgnorePatterns": ["__fixtures__", "jest.setup.js"],
+  "coverageThreshold": {
+    "global": {
+      "branches": 50,
+      "functions": 50,
+      "lines": 50,
+      "statements": 50
+    }
+  }
+}
