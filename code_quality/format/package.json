@@ -1,0 +1,12 @@
+{
+  "name": "code-format-example",
+  "version": "1.0.0",
+  "devDependencies": {
+    "prettier": "^1.17.1"
+  },
+  "scripts": {
+    "format:check": "prettier --list-different 'src/**/*.js'",
+    "format:fix": "prettier --write 'src/**/*.js'"
+  },
+  "dependencies": {}
+}
